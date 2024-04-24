@@ -9,17 +9,21 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table-min.css"
+    />
     <title>Table</title>
   </head>
   <body>
     <section class="container">
       <div class="row">
         <div class="col-12">
-          <table class="table">
+          <table class="table" data-toggle="table" data-search="true">
             <thead>
               <tr>
                 <th>ID</th>
-                <th>NAME</th>
+                <th>COMPANY</th>
                 <th>PRICE</th>
               </tr>
             </thead>
@@ -44,10 +48,26 @@
                 <td>AlienWare</td>
                 <td>2399€</td>
               </tr>
+              <tr>
+                <td>5</td>
+                <td>hp</td>
+                <td>1999€</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Dell</td>
+                <td>2199€</td>
+              </tr>
             </tbody>
           </table>
         </div>
       </div>
     </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/bootstrap-table@1.22.4/dist/bootstrap-table.min.js"></script>
   </body>
 </html>
